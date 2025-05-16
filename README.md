@@ -1,31 +1,67 @@
 # PLTK-LT.github.oi
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
-<style>
-body {
-  background-image: url('https://blogchiasekienthuc.com/wp-content/uploads/2022/12/hinh-nen-may-tinh-fantasy-4k-blogchiasekienthuc.com-1.png');
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Học Python Cơ Bản</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
 </head>
-<body>
+<body class="bg-gradient-to-br from-purple-300 to-blue-300 min-h-screen flex flex-col">
 
-<h2>Background Image</h2>
+  <!-- Nhạc nền -->
+  <audio autoplay loop hidden>
+    <source src="https://www.bensound.com/bensound-music/bensound-ukulele.mp3" type="audio/mpeg">
+    Trình duyệt của bạn không hỗ trợ nhạc nền.
+  </audio>
 
-<p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
+  <!-- Header -->
+  <header class="bg-white shadow-md p-4 text-center text-2xl font-bold text-purple-700">
+    🌟 Khám Phá Python Cơ Bản
+  </header>
 
+  <!-- Form đăng nhập -->
+  <section class="max-w-md mx-auto mt-6 bg-white p-6 rounded-xl shadow-lg">
+    <h2 class="text-xl font-semibold text-center mb-4">Đăng Nhập</h2>
+    <form class="flex flex-col gap-4">
+      <input type="text" placeholder="Tên đăng nhập" class="p-2 border rounded-lg" />
+      <input type="password" placeholder="Mật khẩu" class="p-2 border rounded-lg" />
+      <button type="submit" class="bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition">Đăng Nhập</button>
+    </form>
+  </section>
+
+  <!-- Nội dung chính -->
+  <main class="flex-1 p-6 mt-6">
+    <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-xl p-6 space-y-6">
+      <h3 class="text-xl font-bold text-purple-800">Giới thiệu về Python</h3>
+      <p>Python là một ngôn ngữ lập trình phổ biến, dễ học và mạnh mẽ. Dưới đây là ví dụ đơn giản:</p>
+      <pre class="bg-gray-100 p-4 rounded-lg overflow-auto">
+<code># Ví dụ in ra dòng chữ
+print("Xin chào thế giới!")</code>
+      </pre>
+
+      <h3 class="text-xl font-bold text-purple-800">Giải thích</h3>
+      <p>Lệnh <code>print()</code> được dùng để in dữ liệu ra màn hình. Trong ví dụ trên, chương trình sẽ in: <strong>Xin chào thế giới!</strong></p>
+
+      <h3 class="text-xl font-bold text-purple-800">Video hướng dẫn</h3>
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe class="w-full rounded-lg" height="315" src="https://www.youtube.com/embed/rfscVS0vtbw" title="Python Tutorial for Beginners" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-white text-sm text-gray-500">
+    © 2025 Học Python Cơ Bản. All rights reserved.
+  </footer>
 </body>
-<head>
-	<meta charset="utf-8">
-	<meta name="description" content="First Website"/>
-	<title>PLTK_DEV</title>
-</head>
-<body>
-	<h1> Hello everyone </h1>
-	<p>Hello cac friend</p>
-	<hr>
-	<p>Tooi la mot<strong>dev</strong></p>
-	<ul>
+</html>
+
 		<li><strong>Fullname</strong>: Truong Khanh</li>
 		<li><strong>country</strong>: Viet Nam</li>
 	</ul>
